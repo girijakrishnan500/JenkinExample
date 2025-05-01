@@ -18,7 +18,8 @@ public class JenkinApplicationTests {
 	
 	@Test
 	public void contextLoads() {
-		logger.info("Test Application Executed.......");	
+		logger.info("Test Application Executed.......");
+		logger.info("Second log - Test Application Executed.......");
 		assertEquals(true, true);
 	}
 
